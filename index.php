@@ -9,8 +9,12 @@
 </head>
 <body>
     <div class="texto"></div><!-- Div donde se explica mediante texto --> 
-    <div class="codigo"></div><!--Div donde el usuario escribira su codigo-->
-    <div class="verificado"></div><!--Div donde se imprimirá el resultado del codigo-->
+    <div class="consola"></div><!--Div donde el usuario escribira su codigo-->
+    <div class="check"></div><!--Div donde se imprimirá el resultado del codigo-->
+    <aside>
+        <div class="anuncios"></div><!--Div Anuncios de Google o particulares-->
+        <div class="recomendaciones"></div><!--Div recomendaciones de otros cursos o infoproductos-->
+    </aside>
 </body>
 </html>
 

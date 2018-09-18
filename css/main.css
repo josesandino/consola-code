@@ -5,8 +5,12 @@ html{
     box-sizing: inherit;
   }
   body{
-    background-color: #f2f2f2;
+    background-color: rgb(238, 238, 238);
     font-family: 'Open Sans', sans-serif;    
+  }
+  /** Header **/
+  header { /* Este color se puede utilizar en la navegación con un poco mas claro 51 51 51*/
+    background-color: rgb(33, 34, 37);
   }
 
   /** Contenido Principal **/
@@ -35,6 +39,12 @@ html{
     float: left;
     padding-right: 40px;
   }
+  .button {
+    background-color: rgb(33, 150, 243);
+  }
+  .button:hover{
+    background-color: rgb(100, 181, 246);
+  }
   main div.central {
     float: right;
     width: 40%;
@@ -53,4 +63,8 @@ main div.central div.consola {
 main div.central div.check {
     float: bottom;
     width: 40%;
+}
+/** Footer **/
+footer {
+  background-color: rgb(39, 40, 44);
 }

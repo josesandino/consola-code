@@ -1,0 +1,56 @@
+html{
+    box-sizing: border-box;
+  }
+  *,*::before,*::after{
+    box-sizing: inherit;
+  }
+  body{
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;    
+  }
+
+  /** Contenido Principal **/
+  div.contenido::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  main {
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+  }
+  aside {
+    float: right;
+    width: 30%;
+  } 
+  /** Main **/
+  main::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  main div.texto {
+    width: 60%;
+    float: left;
+    padding-right: 40px;
+  }
+  main div.central {
+    float: right;
+    width: 40%;
+  }
+/** Div Central **/
+main div.central::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+main div.central div.consola {
+    width: 60%;
+    float: top;
+    padding-right: 40px;
+}
+main div.central div.check {
+    float: bottom;
+    width: 40%;
+}
